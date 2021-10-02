@@ -55,6 +55,7 @@ text-shadow: rgb(102, 102, 102);
    font-weight: bold;
    background: linear-gradient(#14141479, #141414 100% ), url('https://www.themoviedb.org/t/p/original/jJGfFTNKYYYwSb3GHxxHVgwWg8g.jpg');
    height:  65%;
+   width: 96.5%;
    max-height: 1500px;
    background-size: cover;
    display: flex;

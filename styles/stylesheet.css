@@ -53,15 +53,16 @@ text-shadow: rgb(102, 102, 102);
 .destaque{
    font-size: 18px;
    font-weight: bold;
-   background: linear-gradient(#14141479, #141414 100% ), url('https://www.themoviedb.org/t/p/original/qKnGmWWG8PiWxVbG57JvLoyP5Qw.jpg');
-   height:  600px;
+   background: linear-gradient(#14141479, #141414 100% ), url('https://www.themoviedb.org/t/p/original/jJGfFTNKYYYwSb3GHxxHVgwWg8g.jpg');
+   height:  65%;
    max-height: 1500px;
    background-size: cover;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
-   padding: 10px;
+   padding: 2%;
+   margin: 1.5%;
 }
 .destaque .container{
    margin-top: 10%;
@@ -76,14 +77,37 @@ text-shadow: rgb(102, 102, 102);
    font-family: 'Roboto Mono', monospace;
    font-size: 40px;
 }
- .botao{
+.destaque .container .botao{
    font-family: "Arial", Times;
    font-size: 12px;
    font-weight: bolder;
    background-color:#2c2c2c98;
    color:  var(--cinza);
+   border-width: 2px;
+   border-style: inset;
+   border-color:rgb(153, 153, 153);
    border-radius: 5px;
-   margin-left: 5px;
-   padding: 10px;
+   margin: 10px;
+   padding: 2%;
    cursor:pointer;
+   transition: 0.3s ease-in-out;
 }
+
+.destaque .container .botao:hover{
+   background-color: var(--branco);
+   color:  #2c2c2c;
+   border-color:#313131;
+   border-style: outset;
+}
+
+.botao i{
+   margin-right: 8px;
+}
+
+
+.box-filme{
+height: 100%;
+width: 100%;
+display: block;
+}
+

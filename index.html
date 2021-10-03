@@ -12,6 +12,15 @@
    <!--Owl Css-->
    <link rel="stylesheet" href="styles/Owl/owl.carousel.min.css">
    <link rel="stylesheet" href="styles/Owl/owl.theme.default.min.css">
+   <style>
+         
+.box-filme{
+height: 100%;
+width: 100%;
+display: block;
+}
+
+   </style>
 </head>
 
    <body>
@@ -59,52 +68,52 @@
              <div class="owl-carousel owl-theme">
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini0.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini0.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini1.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini1.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini2.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini2.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini3.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini3.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini4.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini4.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini5.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini5.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini6.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini6.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini7.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini7.jpg" alt="" srcset="">
                   </div>
                   
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini8.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini8.jpg" alt="" srcset="">
                   </div>
                   
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini9.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini9.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini10.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini10.jpg" alt="" srcset="">
                   </div>
 
                   <div class="item">
-                        <img class="box-filme" src="/img/mins/mini11.jpg" alt="" srcset="">
+                        <img class="box-filme" src="mins/mini11.jpg" alt="" srcset="">
                   </div>
                   
             </div>
@@ -120,7 +129,23 @@
       
       <script src="js/Owl/owl.carousel.min.js"></script>
       <!--Setup JS-->
-      <script src="/js/Owl/setup.js"></script>
+      <script>$('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+        </script>
 
    </body>
 

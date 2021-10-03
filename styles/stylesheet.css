@@ -1,6 +1,4 @@
 /*Estrutura básica*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-
 :root{
    --preto: #141414 ;
    --vermelho: #E50914;
@@ -17,7 +15,6 @@
 body{
    background: var(--preto);
    color: var(--branco);
-   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*Topo da página */
@@ -48,6 +45,7 @@ color: rgb(255, 255, 255);
 text-shadow: rgb(102, 102, 102);
 }
 
+
 /*Filme em destaque*/
 
 .destaque{
@@ -75,7 +73,6 @@ text-shadow: rgb(102, 102, 102);
 }
 
 .destaque .container .titulo{
-   font-family: 'Roboto Mono', monospace;
    font-size: 40px;
 }
 .destaque .container .botao{
@@ -104,3 +101,10 @@ text-shadow: rgb(102, 102, 102);
 .botao i{
    margin-right: 8px;
 }
+        
+.box-filme{
+   height: 100%;
+   width: 100%;
+   display: block;
+   }
+   
